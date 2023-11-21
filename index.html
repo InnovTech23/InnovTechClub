@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>InnovTechClub</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="public/css/software-cell.css">
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="public/css/nav.css">
+  <link rel="stylesheet" href="public/css/modal.css">
+  <link rel="stylesheet" href="public/css/footer.css">
+  <link rel="stylesheet" href="public/css/home.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#upcoming-modal').modal('show');
+    });
+  </script>
+
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/10.6.0/firebase-app-compat.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/10.6.0/firebase-auth-compat.js"></script>
+  <script defer src="/__/firebase/10.6.0/firebase-database-compat.js"></script>
+  <script defer src="/__/firebase/10.6.0/firebase-firestore-compat.js"></script>
+  <script defer src="/__/firebase/10.6.0/firebase-functions-compat.js"></script>
+  <script defer src="/__/firebase/10.6.0/firebase-messaging-compat.js"></script>
+  <script defer src="/__/firebase/10.6.0/firebase-storage-compat.js"></script>
+  <script defer src="/__/firebase/10.6.0/firebase-analytics-compat.js"></script>
+  <script defer src="/__/firebase/10.6.0/firebase-remote-config-compat.js"></script>
+  <script defer src="/__/firebase/10.6.0/firebase-performance-compat.js"></script>
+  <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-red navbar-dark">
+    <div class="wrapper">
+
+    </div>
+    <div class="container-fluid all-show">
+      <a class="navbar-brand" href="#home"><img class="img-fluid" width="40px"
+          src="public/img/logo-transparent-without-text.png" alt="InnovTechClub Logo"> InnovTechClub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cells">Cells</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="d-flex align-items-center masthead">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+        data-aos="fade-up" data-aos-delay="200">
+          <h1>FSTM InnovTechClub</h1>
+          <h2>Join us in shaping the future of technology and innovation.</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 home-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="public/img/home-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+    <style>
+      .a {
+        fill: none;
+      }
+    
+      .b {
+        clip-path: url(#a);
+      }
+    
+      .c,
+      .d {
+        fill: #f9f9fc;
+      }
+    
+      .d {
+        opacity: 0.5;
+        isolation: isolate;
+      }
+    </style>
+    <svg style="pointer-events: none" class="wave" width="100%" height="50px" preserveAspectRatio="none"
+      xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
+      <defs>
+        <clipPath id="a">
+          <rect class="a" width="1920" height="75"></rect>
+        </clipPath>
+      </defs>
+      <title>wave</title>
+      <g class="b">
+        <path class="c"
+          d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48">
+        </path>
+      </g>
+      <g class="b">
+        <path class="d"
+          d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10">
+        </path>
+      </g>
+      <g class="b">
+        <path class="d"
+          d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24">
+        </path>
+      </g>
+      <g class="b">
+        <path class="d"
+          d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150">
+        </path>
+      </g>
+    </svg>
+  </section>
+
+  <div id="upcoming-modal" class="modal fade">
+    <div class="modal-dialog modal-confirm">
+      <div class="modal-content">
+        <div class="modal-header justify-content-center">
+          <div class="icon-box">
+            <img src="public/img/logo-transparent.png" width="80" alt="">
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="bi bi-x-circle"></i></button>
+        </div>
+        <div class="modal-body text-center">
+          <h4>Upcoming soon!</h4>
+          <p>Get ready to join us at the FSTM InnovTechClub's upcoming general assembly!</p>
+          <button class="btn btn-success" data-dismiss="modal"><span>Start Exploring </span> <i class="bi bi-arrow-right-circle-fill"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid pb-0 mb-0 justify-content-center text-light ">
+
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              At InnovTech, we are a dynamic and forward-thinking club dedicated to fostering innovation and embracing the limitless
+            possibilities of technology. Our club serves as a vibrant hub for technology enthusiasts, entrepreneurs, and visionaries
+            who share a common passion for exploring groundbreaking solutions and driving positive change through technology.
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              InnovTech offers a range of engaging activities and initiatives designed to empower our members and equip them with the
+              tools they need to thrive in the ever-evolving landscape of technology. From inspiring guest speakers and
+              thought-provoking workshops to hackathons and networking events, we offer diverse opportunities for personal and
+              professional growth.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="cells">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Cells</h2>
+          <p>
+            Our club is structured around multiple specialized cells, each dedicated to a unique focus and purpose.
+          </p>
+        </div>
+    
+        <div class="row justify-content-between">
+
+          <div class="card" style="width: 30rem;">
+            <img height="160px" width="100%" src="public/img/software-development-specialist.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Software Cell</h5>
+              <p class="card-text">The Software Cell within our club focuses on the development, design, and implementation of innovative software
+              solutions. It's a hub where members collaborate, explore emerging technologies, and create applications that address
+              real-world challenges. From coding to user experience, this cell nurtures creativity and technical expertise in software
+              development.</p>
+            </div>
+            <a href="cells/software.html" class="btn btn-primary btn-sm float-end bottom-0 mb-1">See more</a>
+          </div>
+
+          <div class="card" style="width: 30rem;">
+            <img height="160px" width="100%" src="public/img/data-science-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Date Cell</h5>
+              <p class="card-text">The Data Cell specializes in harnessing the power of data. It's dedicated to understanding, analyzing, and deriving
+              insights from diverse data sets. Members in this cell explore data science, machine learning, and analytics, applying
+              these skills to interpret trends, make informed decisions, and create impactful solutions. From visualization to
+              predictive modeling, this cell delves into the realm of data-driven innovation.</p>
+            </div>
+            <a href="cells/data.html" class="btn btn-primary btn-sm float-end bottom-0 mb-1">See more</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="events">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Events</h2>
+          <p>Explore our events and activities.</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>Discover our latest innovative projects.</p>
+        </div>
+      
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Get in touch with us</p>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-5 mr-lg-5 col-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.0987050372382!2d-7.355924089677819!3d33.70639473580322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7b6d37fd56af5%3A0x5e62c736d5933ac1!2sFaculty%20of%20Sciences%20and%20technologies%20Mohammedia!5e0!3m2!1sen!2sma!4v1700500877843!5m2!1sen!2sma"
+              width="420" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div class="col-lg-6 col-12">
+            <div class="contact-form" data-aos="fade-down">
+              <form method="post" action="https://formsubmit.co/innovtechclub.fstm@gmail.com" class="needs-validation" id="contact-form"
+                novalidate>
+                <div class="row gap-1">
+                  <div class="col-lg-12 col-12" data-aos="fade-right">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="validationCustom01" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid name.
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-12" data-aos="fade-right">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="validationCustom02" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid email.
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-12" data-aos="fade-right">
+                    <input type="subject" class="form-control" name="subject" placeholder="Subject" id="validationCustom03"
+                      required>
+                    <div class="invalid-feedback">
+                      Please provide a valid subject.
+                    </div>
+                  </div>
+                  <div class="col-12" data-aos="fade-right">
+                    <textarea name="message" rows="6" class="form-control" id="validationCustom04" placeholder="Message"
+                      required></textarea>
+                    <div class="invalid-feedback">
+                      Please provide a valid message.
+                    </div>
+                  </div>
+                  <div class="ml-lg-auto col-lg-5 col-12" data-aos="fade-right">
+                    <button type="submit" class="form-control submit-btn btn btn-info">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="row justify-content-center mb-0 pt-5 pb-0 row-2 px-3">
+        <div class="col-12">
+          <div class="row row-2">
+            <div class="col-sm-3 text-md-center">
+              <h5><span> <img src="public/img/logo-transparent.png" class="img-fluid" width="55px" alt=""></span><b>
+                  InnovTechClub</b></h5>
+            </div>
+            <div class="col-sm-3  my-sm-0 mt-5">
+              <ul class="list-unstyled">
+                <li class="mt-0"><a href="#">Home</a></li>
+                <li><a href="#about">About us</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3  my-sm-0 mt-5">
+              <ul class="list-unstyled">
+                <li class="mt-0"><a href="#cells">Cells</a></li>
+                <li><a href="#events">Events</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3  my-sm-0 mt-5">
+              <ul class="list-unstyled">
+                <li class="mt-0"><a href="#contact">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-0 pt-0 row-1 mb-0  px-sm-3 px-2">
+        <div class="col-12">
+          <div class="row my-4 row-1 no-gutters">
+            <div class="col-sm-6 col-auto"><small>&#9400; InnovTechClub - Developed by <a href="http://ismailzahir.me">Ismail ZAHIR</a></small></div>
+            <div class="col-md-3 col-auto"></div>
+            <div class="col my-auto text-md-left text-right ">
+              <small>
+                <a href="mailto:innovtechclub.fstm@gmail.com">innovtechclub.fstm@gmail.com</a>
+                <span><a target="_blank" href="https://linkedin.com/company/innovtechclubfstm"><img src="public/img/linkedin.gif" class="img-fluid " width="25"></a></span>
+                <span><a target="_blank" href="https://instagram.com/innovtechclubfstm"><img src="public/img/instagram.gif" class="img-fluid " width="25"></a></span>
+                <span><a target="_blank" href="https://facebook.com/innovtechclubfstm"><img src="public/img/facebook.gif" class="img-fluid " width="25"></a></span>
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const loadEl = document.querySelector('#load');
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // // The Firebase SDK is initialized and available here!
+      //
+      // firebase.auth().onAuthStateChanged(user => { });
+      // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+      // firebase.firestore().doc('/foo/bar').get().then(() => { });
+      // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+      // firebase.messaging().requestPermission().then(() => { });
+      // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+      // firebase.analytics(); // call to activate
+      // firebase.analytics().logEvent('tutorial_completed');
+      // firebase.performance(); // call to activate
+      //
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      try {
+        let app = firebase.app();
+        let features = [
+          'auth',
+          'database',
+          'firestore',
+          'functions',
+          'messaging',
+          'storage',
+          'analytics',
+          'remoteConfig',
+          'performance',
+        ].filter(feature => typeof app[feature] === 'function');
+        loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+      } catch (e) {
+        console.error(e);
+        loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+      }
+    });
+  </script>
+</body>
+
+</html>
