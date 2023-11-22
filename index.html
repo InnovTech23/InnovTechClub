@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="public/css/modal.css">
   <link rel="stylesheet" href="public/css/footer.css">
   <link rel="stylesheet" href="public/css/home.css">
+  <link rel="stylesheet" href="public/css/timeline.css">
   
   <!-- update the version number as needed -->
   <script defer src="/__/firebase/10.6.0/firebase-app-compat.js"></script>
@@ -139,7 +140,7 @@
   </section>
 
   <div id="upcoming-modal" class="modal fade">
-    <div class="modal-dialog modal-confirm">
+    <div class="modal-dialog modal-confirm modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header justify-content-center">
           <div class="icon-box">
@@ -190,14 +191,14 @@
           <div class="four col-md-3">
             <div class="counter-box colored">
               <i class="fa fa-group"></i>
-              <span class="counter"></span>
+              <span class="counter">4</span>
               <p>Registered Members</p>
             </div>
           </div>
           <div class="four col-md-3">
             <div class="counter-box">
               <i class="fa fa-solid fa-calendar"></i>
-              <span class="counter"></span>
+              <span class="counter">3</span>
               <p>Events</p>
             </div>
           </div>
@@ -211,7 +212,7 @@
           <div class="four col-md-3">
             <div class="counter-box">
               <i class="fa fa-solid fa-trophy"></i>
-              <span class="counter"></span>
+              <span class="counter">1</span>
               <p>Awards</p>
             </div>
           </div>
@@ -238,7 +239,7 @@
               emerging tech, creating applications for real-world challenges while nurturing creativity and technical expertise in
               software development.</p>
             </div>
-            <a href="cells/software.html" class="btn btn-primary btn-sm float-end bottom-0 mb-1">See more</a>
+            <a href="cells/software.html" class="btn see-more-btn btn-sm float-end bottom-0 mb-1">See more</a>
           </div>
 
           <div class="card" style="width: 30rem;">
@@ -249,7 +250,7 @@
               science, machine learning, and analytics to interpret trends, make informed decisions, and create impactful solutions.
               From visualization to predictive modeling, it thrives in data-driven innovation.</p>
             </div>
-            <a href="cells/data.html" class="btn btn-primary btn-sm float-end bottom-0 mb-1">See more</a>
+            <a href="cells/data.html" class="btn see-more-btn btn-sm float-end bottom-0 mb-1">See more</a>
           </div>
 
         </div>
@@ -263,7 +264,44 @@
           <h2>Events</h2>
           <p>Explore our events and activities.</p>
         </div>
-        
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-timeline2">
+
+              <div class="timeline">
+                <span class="icon fa fa-globe"></span>
+                <a href="#" class="timeline-content">
+                  <h3 class="title d-flex justify-content-between">Club's General Assembly <small class="fs-6 text-black">Upcoming</small></h3>
+                  <p class="description">
+                    Join us for our upcoming General Assembly, a pivotal gathering for discussions on future club endeavors and initiatives.
+                  </p>
+                </a>
+              </div>
+
+              <div class="timeline">
+                <span class="icon fa fa-solid fa-code"></span>
+                <a href="#" class="timeline-content">
+                  <h3 class="title d-flex justify-content-between">OOP Workshop <small class="fs-6 text-black">August 06, 2023</small></h3>
+                  <p class="description">
+                    Explore the principles and practical applications of Object-Oriented Programming (OOP) through an engaging and
+                    informative workshop.
+                  </p>
+                </a>
+              </div>
+
+              <div class="timeline">
+                <span class="icon fa fa-solid fa-hourglass-start"></span>
+                <a href="#" class="timeline-content">
+                  <h3 class="title d-flex justify-content-between">Club Commencement <small class="fs-6 text-black">August 06, 2023</small></h3>
+                  <p class="description">
+                    This event marks the inception of our club.
+                  </p>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
