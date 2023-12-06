@@ -6,6 +6,7 @@ import AOS from 'aos'
 import Home from './pages/Home'
 import SoftwareCell from './pages/SoftwareCell'
 import DataCell from './pages/DataCell'
+import Architecture from './pages/Architecture'
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/architecture' element={<Architecture />} />
         <Route path='/software' element={<SoftwareCell />} />
         <Route path='/data' element={<DataCell />} />
         <Route path='*' element={<Navigate to={'/'} replace />} />

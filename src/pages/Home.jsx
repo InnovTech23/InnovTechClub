@@ -6,13 +6,22 @@ import CellCard from '../components/CellCard'
 import CounterCard from '../components/CounterCard'
 import EventTimeline from '../components/EventTimeline'
 import ContactForm from '../components/ContactForm'
+import { Link as ScrollLink } from 'react-scroll'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
     <>
       <Nav home="true"/>
-      <Header />
-      <UpcomingEvent title="Upcoming soon!">Get ready to join us at the FSTM InnovTechClub's upcoming general assembly!</UpcomingEvent>
+      <Header>
+        <h1>FSTM InnovTechClub</h1>
+        <h2>Join us in shaping the future of technology and innovation.</h2>
+        <div className="d-flex justify-content-center justify-content-lg-start">
+          <ScrollLink to="about" smooth={true} duration={500} className="btn-get-started scrollto">Get Started</ScrollLink>&nbsp;&nbsp;
+          <Link to="/architecture" className="btn-get-started bg-warning">Architecture</Link>
+        </div>
+      </Header>
+      <UpcomingEvent title="Upcoming soon!" url="/architecture">Get ready to join us at the FSTM InnovTechClub's upcoming general assembly!</UpcomingEvent>
 
       <div className="container-fluid pb-0 mb-0 justify-content-center text-light ">
 
