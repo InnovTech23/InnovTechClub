@@ -68,7 +68,7 @@ const Home = () => {
               <h2>Cells</h2>
               <p>Our club is structured around multiple specialized cells, each dedicated to a unique focus and purpose.</p>
             </div>
-            <div className="row justify-content-between">
+            <div className="container row justify-content-between">
               <CellCard name="Software Cell" img="/img/software-development-specialist.jpg" url="/software">
                 The Software Cell focuses on crafting innovative software solutions. It's a collaborative hub where members explore
                 emerging tech, creating applications for real-world challenges while nurturing creativity and technical expertise in
