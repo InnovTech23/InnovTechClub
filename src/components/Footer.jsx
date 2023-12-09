@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="row justify-content-center mt-0 pt-0 row-1 mb-0  px-sm-3 px-2">
         <div className="col-12">
           <div className="row my-4 row-1 no-gutters">
-            <div className="col-sm-12 col-auto text-center"><small>&#9400; InnovTechClub 2023 - Developed by <a href="http://ismailzahir.me">Ismail ZAHIR</a></small></div>
+            <div className="col-sm-12 col-auto text-center"><small>&#9400; InnovTechClub 2023 - Developed by <a href="http://ismailzahir.me" target="blanck">Ismail ZAHIR</a></small></div>
           </div>
         </div>
       </div>
