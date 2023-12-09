@@ -8,9 +8,19 @@ import EventTimeline from '../components/EventTimeline'
 import ContactForm from '../components/ContactForm'
 import { Link as ScrollLink } from 'react-scroll'
 import { Link } from 'react-router-dom'
+import { useEffect, useState } from "react";
+import Loader from '../components/Loader'
 
 const Home = () => {
+
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000)
+  }, [])
+
   return (
+    loading ? <Loader /> :
     <>
       <Nav home="true"/>
       <Header>

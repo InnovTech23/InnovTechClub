@@ -4,9 +4,19 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Nav from "../components/Nav"
 import { Link } from "react-router-dom"
+import { useEffect, useState } from "react"
+import Loader from "../components/Loader"
 
 const Architecture = () => {
+
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000)
+  }, [])
+
   return (
+    loading ? <Loader /> :
     <>
       <Nav />
       <Header>

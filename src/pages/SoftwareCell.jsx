@@ -1,9 +1,19 @@
 import Nav from "../components/Nav"
 import CellHeader from "../components/CellHeader"
 import Footer from "../components/Footer"
+import Loader from "../components/Loader"
+import { useEffect, useState } from "react"
 
 const SoftwareCell = () => {
+
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000)
+  }, [])
+
   return (
+    loading ? <Loader /> :
     <>
       <Nav />
       <CellHeader title="Software Cell">
