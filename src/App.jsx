@@ -7,6 +7,9 @@ import Home from './pages/Home'
 import SoftwareCell from './pages/SoftwareCell'
 import DataCell from './pages/DataCell'
 import Architecture from './pages/Architecture'
+import Voting from './pages/Voting'
+import Terms from './pages/Terms'
+import Apply from './pages/Apply'
 
 function App() {
   
@@ -22,6 +25,9 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/terms' element={<Terms />} />
+        <Route path='/apply' element={<Apply />} />
+        <Route path='/voting' element={<Voting />} />
         <Route path='/architecture' element={<Architecture />} />
         <Route path='/software' element={<SoftwareCell />} />
         <Route path='/data' element={<DataCell />} />
