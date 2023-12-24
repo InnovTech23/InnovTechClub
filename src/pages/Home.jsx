@@ -102,7 +102,7 @@ const Home = () => {
             <div className="row">
               <div className="col-md-12">
                 <div className="main-timeline2">
-                  <EventTimeline title="Club's General Assembly" icon="fa fa-globe" date="Upcoming">
+                  <EventTimeline title="Club's General Assembly" icon="fa fa-globe" date="December 20, 2023">
                     Join us for our upcoming General Assembly, a pivotal gathering for discussions on future club endeavors and initiatives.
                   </EventTimeline>
                   <EventTimeline title="OOP Workshop" icon="fa fa-solid fa-code" date="August 06, 2023">

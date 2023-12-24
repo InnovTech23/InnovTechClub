@@ -18,7 +18,7 @@ const Voting = () => {
       <Nav />
       <div className="container-fluid pb-0 mb-0 justify-content-center text-light">
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecB_pyKXo5lGjsjD8KNrdzKLkoCBrILxtu-ExFzXjG4lndZw/viewform?embedded=true" 
-        width="100%" height="1600" frameborder="0" marginheight="0" marginwidth="0">
+          width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">
           Loading…
         </iframe>
 
