@@ -65,7 +65,7 @@ const Home = () => {
           <div class="container">
             <div class="row">
               <CounterCard title="Members" icon="fa fa-group" colored="true">50</CounterCard>
-              <CounterCard title="Events" icon="fa fa-solid fa-calendar">3</CounterCard>
+              <CounterCard title="Events" icon="fa fa-solid fa-calendar">4</CounterCard>
               <CounterCard title="Projects" icon="fa fa-solid fa-list">0</CounterCard>
               <CounterCard title="Awards" icon="fa fa-solid fa-trophy">1</CounterCard>
             </div>
@@ -102,14 +102,17 @@ const Home = () => {
             <div className="row">
               <div className="col-md-12">
                 <div className="main-timeline2">
-                  <EventTimeline title="Club's General Assembly" icon="fa fa-globe" date="December 20, 2023">
+                  <EventTimeline url="https://www.instagram.com/p/C19LPvQIb3E/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" title="Agile Methodologies Training" icon="fa fa-code" date="January 13, 2024">
+                    Unlock the world of Agile Methodologies with Rachid BAAZIZ. Discover agility, Scrum & Kanban using Jira Software.
+                  </EventTimeline>
+                  <EventTimeline url="https://www.instagram.com/reel/C1K4jPErLLK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" title="Club's General Assembly" icon="fa fa-globe" date="December 20, 2023">
                     Join us for our upcoming General Assembly, a pivotal gathering for discussions on future club endeavors and initiatives.
                   </EventTimeline>
-                  <EventTimeline title="OOP Workshop" icon="fa fa-solid fa-code" date="August 06, 2023">
+                  <EventTimeline url="https://www.instagram.com/p/Cvji_GNIOw1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" title="OOP Workshop" icon="fa fa-solid fa-code" date="August 06, 2023">
                     Explore the principles and practical applications of Object-Oriented Programming (OOP) through an engaging and
-                    informative workshop.
+                    informative workshop with Walid AHDOUF.
                   </EventTimeline>
-                  <EventTimeline title="Club Commencement" icon="fa fa-solid fa-hourglass-start" date="August 06, 2023">
+                  <EventTimeline url="https://www.instagram.com/p/CvigRvtIoiw/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==" title="Club Commencement" icon="fa fa-solid fa-hourglass-start" date="August 06, 2023">
                     This event marks the inception of our club.
                   </EventTimeline>
                 </div>

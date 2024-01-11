@@ -104,22 +104,6 @@ const Architecture = () => {
             </div>
           </div>
         </section>
-        <section>
-          <div className="container" data-aos="fade-up">
-            <div className="section-title">
-              <h2>Club's General Assembly</h2>
-              <p>Join us for our upcoming General Assembly, a pivotal gathering for discussions on future club endeavors and initiatives.</p>
-            </div>
-            <div className="row">
-              <div className="col-lg-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                data-aos="fade-up" data-aos-delay="200">
-                <div className="d-flex justify-content-center align-items-center">
-                  <Link to={'https://innovtechclub-votingsystem.web.app'} className="btn btn-success btn-get-started scrollto">Apply</Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <Footer />
       </div>
     </>
